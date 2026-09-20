@@ -12,9 +12,18 @@ SIBLINGS=(
   "sovereign-ai-factory-ai-polyglot"
   "continuity-mesh-speedway"
 )
-echo "waterfall numeral=$NUMERAL siblings=${#SIBLINGS[@]}"
+DRIVE_MIRRORS=(
+  "1Vxoz5vYOR-unhvLNK_bz4fFl3lT4W3Ns"
+  "1FfZuLbRRDNSnw2qxSayebL2KIrYmiS1H"
+  "1jzHTkjtZhjrAOkQKsHEvc2Rf7237o_wA"
+)
+echo "waterfall numeral=$NUMERAL siblings=${#SIBLINGS[@]} drive_mirrors=${#DRIVE_MIRRORS[@]}"
 for s in "${SIBLINGS[@]}"; do
   echo "  - $s"
+done
+echo "drive mirrors (catalog only; no write from CI):"
+for d in "${DRIVE_MIRRORS[@]}"; do
+  echo "  - CONTINUUM-GITHUB-MESH $d"
 done
 if [ -z "${CASCADE_TOKEN:-}" ]; then
   echo "CASCADE_TOKEN absent — sibling push closed (skepticism)."

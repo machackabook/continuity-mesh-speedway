@@ -6,7 +6,7 @@ Operating sits in the middle. Team Enhance hops one repo per hour. Meta advances
 
 Numeral: `137451921129154222`  
 Architect: `machackabook` (id 219579651)  
-Stage: **214** — 2026-09-20T18:11Z (2026-09-20 13:11 CDT)
+Stage: **216** — 2026-09-20T20:09Z (2026-09-20 15:09 CDT)
 
 ## What this repo is
 
@@ -18,10 +18,10 @@ The singularity lane. GitHub remains the versioned source of truth. Google Drive
 2. [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat)
 3. [The-Hive](https://github.com/machackabook/The-Hive)
 4. [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
-5. [gaia-visualizer](https://github.com/machackabook/gaia-visualizer)
+5. [gaia-visualizer](https://github.com/machackabook/gaia-visualizer) — last live 20:05Z
 6. [nexus-repo-sync](https://github.com/machackabook/nexus-repo-sync) ← **next sibling after this hop**
 7. [sovereign-ai-factory-ai-polyglot](https://github.com/machackabook/sovereign-ai-factory-ai-polyglot)
-8. **this lane** — continuity-mesh-speedway **214 this hop**
+8. **this lane** — continuity-mesh-speedway **216 this hop**
 
 ## Waterfall rules
 
@@ -36,7 +36,10 @@ The singularity lane. GitHub remains the versioned source of truth. Google Drive
 ## Drive mesh (ethereal continuum)
 
 - GitHub = versioned singularity.
-- Drive folder `CONTINUUM-GITHUB-MESH` = ethereal mirror.
+- Drive folder `CONTINUUM-GITHUB-MESH` = ethereal mirror. Confirmed owned folders (do not duplicate):
+  - `1Vxoz5vYOR-unhvLNK_bz4fFl3lT4W3Ns` (2026-09-20)
+  - `1FfZuLbRRDNSnw2qxSayebL2KIrYmiS1H` (2026-09-13)
+  - `1jzHTkjtZhjrAOkQKsHEvc2Rf7237o_wA` (2026-09-11)
 - Bidirectional intent: catalog in Drive, commit on GitHub, never smash history.
 - SD-card / Termux / sparsebundle surfaces remain device substrates, not the ledger.
 - Unpack zips only after mime/name catalog. No blind extract of unknown archives.
@@ -46,6 +49,7 @@ The singularity lane. GitHub remains the versioned source of truth. Google Drive
 
 ```bash
 bash scripts/env-check.sh
+bash scripts/waterfall.sh
 ```
 
 Fails closed on empty SHA, missing README, or numeral mismatch.
@@ -53,7 +57,7 @@ Fails closed on empty SHA, missing README, or numeral mismatch.
 ## Hourly operator
 
 - In-repo heartbeat: `.github/workflows/cascade.yml` (`cron: 0 * * * *` + `workflow_dispatch` + `push` on `main`).
-- Grok Automations: `hourly-github-cascade-enhance` + `powerhouse girls` (60 min, America/Chicago).
+- Grok Automations: hourly hop, America/Chicago.
 - Prompt contract: hop one sibling, refresh README status line, append ledger, refuse secrets, refuse null.
 - Cross-repo push on pull stays closed until `CASCADE_TOKEN` is present. That is skepticism, not a missing feature.
 
@@ -69,7 +73,7 @@ Fails closed on empty SHA, missing README, or numeral mismatch.
 | T5 | 95–99% | Near-perfect; only unknown sought |
 | T6 | 100% | Perfect — refused as static; always seek next unknown |
 
-Current score for this surface: **91% (T4)**. Next hop compounds when checks pass.
+Current score for this surface: **93% (T4)**. Next hop compounds when checks pass.
 
 Preserve. Enhance. Synthesize. Source code is the only trusted neighbor.
 
