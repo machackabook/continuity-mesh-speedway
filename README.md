@@ -6,7 +6,7 @@ Operating sits in the middle. Team Enhance hops one repo per hour. Meta advances
 
 Numeral: `137451921129154222`  
 Architect: `machackabook` (id 219579651)  
-Stage: **213** — 2026-09-20T17:15Z (2026-09-20 12:15 CDT)
+Stage: **214** — 2026-09-20T18:11Z (2026-09-20 13:11 CDT)
 
 ## What this repo is
 
@@ -16,12 +16,12 @@ The singularity lane. GitHub remains the versioned source of truth. Google Drive
 
 1. [ENCLAVE-ADAM-REUNITED](https://github.com/machackabook/ENCLAVE-ADAM-REUNITED)
 2. [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat)
-3. [The-Hive](https://github.com/machackabook/The-Hive) — 212 prior
+3. [The-Hive](https://github.com/machackabook/The-Hive)
 4. [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
 5. [gaia-visualizer](https://github.com/machackabook/gaia-visualizer)
-6. [nexus-repo-sync](https://github.com/machackabook/nexus-repo-sync) ← next sibling after this hop
+6. [nexus-repo-sync](https://github.com/machackabook/nexus-repo-sync) ← **next sibling after this hop**
 7. [sovereign-ai-factory-ai-polyglot](https://github.com/machackabook/sovereign-ai-factory-ai-polyglot)
-8. **this lane** — continuity-mesh-speedway **213 this hop**
+8. **this lane** — continuity-mesh-speedway **214 this hop**
 
 ## Waterfall rules
 
@@ -40,6 +40,7 @@ The singularity lane. GitHub remains the versioned source of truth. Google Drive
 - Bidirectional intent: catalog in Drive, commit on GitHub, never smash history.
 - SD-card / Termux / sparsebundle surfaces remain device substrates, not the ledger.
 - Unpack zips only after mime/name catalog. No blind extract of unknown archives.
+- Shared-with-me vs My Drive: catalog both; write only into owned mesh folders.
 
 ## Local env check
 
@@ -52,7 +53,7 @@ Fails closed on empty SHA, missing README, or numeral mismatch.
 ## Hourly operator
 
 - In-repo heartbeat: `.github/workflows/cascade.yml` (`cron: 0 * * * *` + `workflow_dispatch` + `push` on `main`).
-- Grok Automations cadence: `RRULE:FREQ=HOURLY` timezone `America/Chicago`.
+- Grok Automations: `hourly-github-cascade-enhance` + `powerhouse girls` (60 min, America/Chicago).
 - Prompt contract: hop one sibling, refresh README status line, append ledger, refuse secrets, refuse null.
 - Cross-repo push on pull stays closed until `CASCADE_TOKEN` is present. That is skepticism, not a missing feature.
 
@@ -68,7 +69,7 @@ Fails closed on empty SHA, missing README, or numeral mismatch.
 | T5 | 95–99% | Near-perfect; only unknown sought |
 | T6 | 100% | Perfect — refused as static; always seek next unknown |
 
-Current score for this surface: **90% (T4)**. Next hop compounds when checks pass.
+Current score for this surface: **91% (T4)**. Next hop compounds when checks pass.
 
 Preserve. Enhance. Synthesize. Source code is the only trusted neighbor.
 
