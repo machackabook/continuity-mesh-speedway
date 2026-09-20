@@ -4,9 +4,9 @@ Bidirectional GitHub ↔ Drive mesh. Hourly enhance waterfall. Versioning speedw
 
 Operating sits in the middle. Team Enhance hops one repo per hour. Meta advances. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Numeral: `137451921129154222`
-Architect: `machackabook` (id 219579651)
-Stage: **212** — 2026-09-20T16:20Z (2026-09-20 11:20 CDT)
+Numeral: `137451921129154222`  
+Architect: `machackabook` (id 219579651)  
+Stage: **213** — 2026-09-20T17:15Z (2026-09-20 12:15 CDT)
 
 ## What this repo is
 
@@ -14,14 +14,14 @@ The singularity lane. GitHub remains the versioned source of truth. Google Drive
 
 ## Mesh siblings (active waterfall)
 
-1. [ENCLAVE-ADAM-REUNITED](https://github.com/machackabook/ENCLAVE-ADAM-REUNITED) — 207 @ 16:14Z
-2. [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat) — 207 @ 12:36Z
-3. [The-Hive](https://github.com/machackabook/The-Hive) — **212 this cycle**
+1. [ENCLAVE-ADAM-REUNITED](https://github.com/machackabook/ENCLAVE-ADAM-REUNITED)
+2. [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat)
+3. [The-Hive](https://github.com/machackabook/The-Hive) — 212 prior
 4. [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
 5. [gaia-visualizer](https://github.com/machackabook/gaia-visualizer)
-6. [nexus-repo-sync](https://github.com/machackabook/nexus-repo-sync) ← next hour
+6. [nexus-repo-sync](https://github.com/machackabook/nexus-repo-sync) ← next sibling after this hop
 7. [sovereign-ai-factory-ai-polyglot](https://github.com/machackabook/sovereign-ai-factory-ai-polyglot)
-8. **this lane** — continuity-mesh-speedway
+8. **this lane** — continuity-mesh-speedway **213 this hop**
 
 ## Waterfall rules
 
@@ -31,6 +31,7 @@ The singularity lane. GitHub remains the versioned source of truth. Google Drive
 - Do not multiply YAML clones. Keep one healthy cascade workflow per repo.
 - DIVERGED is a review state. No automatic merge, rebase, force-reset, or overwrite.
 - Secrets stay in Actions / device env. Public projections stay clean.
+- Env check fails closed on empty SHA, missing README, or numeral mismatch.
 
 ## Drive mesh (ethereal continuum)
 
@@ -38,6 +39,7 @@ The singularity lane. GitHub remains the versioned source of truth. Google Drive
 - Drive folder `CONTINUUM-GITHUB-MESH` = ethereal mirror.
 - Bidirectional intent: catalog in Drive, commit on GitHub, never smash history.
 - SD-card / Termux / sparsebundle surfaces remain device substrates, not the ledger.
+- Unpack zips only after mime/name catalog. No blind extract of unknown archives.
 
 ## Local env check
 
@@ -47,10 +49,26 @@ bash scripts/env-check.sh
 
 Fails closed on empty SHA, missing README, or numeral mismatch.
 
-## Hourly operator (Grok Automations)
+## Hourly operator
 
-Cadence: `RRULE:FREQ=HOURLY` timezone `America/Chicago`.
-Prompt contract: hop one sibling, refresh README status line, append ledger, refuse secrets, refuse null.
+- In-repo heartbeat: `.github/workflows/cascade.yml` (`cron: 0 * * * *` + `workflow_dispatch` + `push` on `main`).
+- Grok Automations cadence: `RRULE:FREQ=HOURLY` timezone `America/Chicago`.
+- Prompt contract: hop one sibling, refresh README status line, append ledger, refuse secrets, refuse null.
+- Cross-repo push on pull stays closed until `CASCADE_TOKEN` is present. That is skepticism, not a missing feature.
+
+## Compounding growth
+
+| Tier | Range | Meaning |
+|------|-------|--------|
+| T0 | 0–19% | Bare surface |
+| T1 | 20–39% | Stamp + README present |
+| T2 | 40–59% | Cascade healthy + numeral locked |
+| T3 | 60–79% | Compounding cycle live |
+| T4 | 80–94% | Mesh siblings verified + env-check green |
+| T5 | 95–99% | Near-perfect; only unknown sought |
+| T6 | 100% | Perfect — refused as static; always seek next unknown |
+
+Current score for this surface: **90% (T4)**. Next hop compounds when checks pass.
 
 Preserve. Enhance. Synthesize. Source code is the only trusted neighbor.
 

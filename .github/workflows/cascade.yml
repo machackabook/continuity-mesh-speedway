@@ -1,0 +1,25 @@
+name: cascade
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  env-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: env-check
+        run: bash scripts/env-check.sh
+      - name: waterfall catalog
+        run: bash scripts/waterfall.sh
+        env:
+          CASCADE_TOKEN: ${{ secrets.CASCADE_TOKEN }}
