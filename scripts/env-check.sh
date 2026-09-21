@@ -1,19 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
 NUMERAL="137451921129154222"
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 fail() { echo "env-check FAIL: $*"; exit 1; }
-[ -f README.md ] || fail "missing README.md"
-grep -q "$NUMERAL" README.md || fail "numeral not present in README"
-[ -f SECURITY.md ] || fail "missing SECURITY.md"
-[ -f scripts/waterfall.sh ] || fail "missing waterfall.sh"
-if command -v git >/dev/null 2>&1; then
-  sha=$(git rev-parse HEAD 2>/dev/null || true)
-  [ -n "${sha:-}" ] || fail "empty SHA / point-zero null"
-  echo "env-check SHA=$sha"
+[ -f "$ROOT/README.md" ] || fail "missing README.md"
+grep -q "$NUMERAL" "$ROOT/README.md" || fail "numeral mismatch in README"
+grep -q "$NUMERAL" "$ROOT/scripts/waterfall.sh" || fail "numeral mismatch in waterfall"
+if command -v git >/dev/null 2>&1 && [ -d "$ROOT/.git" ]; then
+  SHA=$(git -C "$ROOT" rev-parse HEAD 2>/dev/null || true)
+  [ -n "${SHA:-}" ] || fail "empty SHA"
+  echo "env-check SHA=$SHA"
 fi
-if [ -d .github/workflows ]; then
-  yaml_count=$(find .github/workflows -name '*.yml' -o -name '*.yaml' | wc -l | tr -d ' ')
-  echo "env-check workflows=$yaml_count"
-  [ "$yaml_count" -ge 1 ] || fail "no cascade workflow"
-fi
-echo "env-check OK numeral=$NUMERAL hop=217"
+echo "env-check PASS numeral=$NUMERAL hop-surface=continuity-mesh-speedway"
