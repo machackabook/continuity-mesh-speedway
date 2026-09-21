@@ -1,11 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 NUMERAL="137451921129154222"
-HOP="218"
-NEXT="The-Hive"
-echo "waterfall hop=$HOP next=$NEXT numeral=$NUMERAL"
-if [ -z "${CASCADE_TOKEN:-}" ]; then
-  echo "waterfall CLOSED: CASCADE_TOKEN absent — catalog only, no sibling push"
-  exit 0
-fi
-echo "waterfall OPEN: token present — sibling push remains operator-gated"
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+echo "waterfall surface=continuity-mesh-speedway numeral=$NUMERAL hop=219"
+echo "siblings: ENCLAVE-ADAM-REUNITED Cryptic-Heartbeat The-Hive continuity-ledger-cycle gaia-visualizer nexus-repo-sync sovereign-ai-factory-ai-polyglot continuity-mesh-speedway"
+echo "rule: one repo per hour; pull leaves stamp; CASCADE_TOKEN never in tree"
+bash "$ROOT/scripts/env-check.sh"
