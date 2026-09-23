@@ -6,7 +6,7 @@ Operating sits in the middle. Team Enhance hops one repo per hour. Meta advances
 
 Numeral: `137451921129154222`  
 Architect: `machackabook` (id 219579651)  
-Stage: **260** — 2026-09-23T20:21Z (2026-09-23 15:21 CDT)
+Stage: **261** — 2026-09-23T21:04Z (2026-09-23 16:04 CDT)
 
 ## What this repo is
 
@@ -18,12 +18,12 @@ sSoS posture: noisy-neighbor catalog, cookie-to-device skepticism, append-only l
 
 1. [ENCLAVE-ADAM-REUNITED](https://github.com/machackabook/ENCLAVE-ADAM-REUNITED)
 2. [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat)
-3. [The-Hive](https://github.com/machackabook/The-Hive) — hop 259 @ 20:08Z
-4. [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle) — **260 this hop**
-5. [gaia-visualizer](https://github.com/machackabook/gaia-visualizer) ← next
+3. [The-Hive](https://github.com/machackabook/The-Hive)
+4. [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
+5. [gaia-visualizer](https://github.com/machackabook/gaia-visualizer) ← **next hop after 261**
 6. [nexus-repo-sync](https://github.com/machackabook/nexus-repo-sync)
 7. [sovereign-ai-factory-ai-polyglot](https://github.com/machackabook/sovereign-ai-factory-ai-polyglot)
-8. **this lane** — continuity-mesh-speedway **260 stamp**
+8. **this lane** — continuity-mesh-speedway **261 stamp**
 
 ## Waterfall rules
 
@@ -37,6 +37,7 @@ sSoS posture: noisy-neighbor catalog, cookie-to-device skepticism, append-only l
 - Cross-repo push on pull stays closed until token present. Skepticism, not a missing feature.
 - Zip unpack is dry-run first. CI never unpacks operator archives.
 - The-Hive currently carries many workflow clones; do not add more. Prefer one cascade.
+- Shared-with-me Drive is catalog-only. Writes go only to owned continuum folders.
 
 ## Drive mesh (ethereal continuum)
 

@@ -17,4 +17,4 @@ if command -v git >/dev/null 2>&1 && [ -d "$ROOT/.git" ]; then
   [ -n "${SHA:-}" ] || fail "empty SHA — point-zero null refused"
   echo "env-check SHA=$SHA"
 fi
-echo "env-check PASS numeral=$NUMERAL hop-surface=continuity-mesh-speedway hop=219"
+echo "env-check PASS numeral=$NUMERAL hop-surface=continuity-mesh-speedway hop=261"
