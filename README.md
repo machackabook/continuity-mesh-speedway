@@ -6,7 +6,7 @@ Operating sits in the middle. Team Enhance hops one repo per hour. Meta advances
 
 Numeral: `137451921129154222`  
 Architect: `machackabook` (id 219579651)  
-Stage: **220** — 2026-09-21T22:05Z (2026-09-21 17:05 CDT)
+Stage: **254** — 2026-09-23T19:12Z (2026-09-23 14:12 CDT)
 
 ## What this repo is
 
@@ -16,14 +16,14 @@ sSoS posture: noisy-neighbor catalog, cookie-to-device skepticism, append-only l
 
 ## Mesh siblings (active waterfall)
 
-1. [ENCLAVE-ADAM-REUNITED](https://github.com/machackabook/ENCLAVE-ADAM-REUNITED)
-2. [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat)
-3. [The-Hive](https://github.com/machackabook/The-Hive)
+1. [ENCLAVE-ADAM-REUNITED](https://github.com/machackabook/ENCLAVE-ADAM-REUNITED) — stage 253 @ 17:47Z
+2. [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat) — stage 257 @ 18:10Z
+3. [The-Hive](https://github.com/machackabook/The-Hive) ← **next sibling after this hop**
 4. [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
-5. [gaia-visualizer](https://github.com/machackabook/gaia-visualizer) ← **next sibling after this hop**
+5. [gaia-visualizer](https://github.com/machackabook/gaia-visualizer)
 6. [nexus-repo-sync](https://github.com/machackabook/nexus-repo-sync)
 7. [sovereign-ai-factory-ai-polyglot](https://github.com/machackabook/sovereign-ai-factory-ai-polyglot)
-8. **this lane** — continuity-mesh-speedway **220 this hop**
+8. **this lane** — continuity-mesh-speedway **254 this hop**
 
 ## Waterfall rules
 
@@ -62,7 +62,7 @@ Fails closed on empty SHA, missing README, or numeral mismatch.
 ## Hourly operator
 
 - In-repo heartbeat: `.github/workflows/cascade.yml` (`cron: 0 * * * *` + `workflow_dispatch` + `push` on `main`).
-- Grok Automations: hourly hop, America/Chicago.
+- Grok Automations + connector hops: one sibling per hour, America/Chicago.
 - Prompt contract: hop one sibling, refresh README status line, append ledger, refuse secrets, refuse null.
 
 ## Compounding growth
@@ -77,7 +77,7 @@ Fails closed on empty SHA, missing README, or numeral mismatch.
 | T5 | 95–99% | Near-perfect; only unknown sought |
 | T6 | 100% | Perfect — refused as static; always seek next unknown |
 
-Current score for this surface: **96% (T5)**. Next hop compounds when checks pass.
+Current score for this surface: **97% (T5)**. Next hop compounds when checks pass.
 
 Preserve. Enhance. Synthesize. Source code is the only trusted neighbor.
 
