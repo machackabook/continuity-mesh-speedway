@@ -1,10 +1,8 @@
 {
+  "pulse": 267,
+  "cron": "0 * * * *",
+  "tz": "America/Chicago",
+  "next_hop": "nexus-repo-sync",
   "numeral": "137451921129154222",
-  "repo": "continuity-mesh-speedway",
-  "role": "speedway-ack",
-  "hub": "ENCLAVE-ADAM-REUNITED",
-  "stage": 267,
-  "sessionHash": "beec41f1",
-  "livingHash": "7cd81012",
-  "utc": "2026-09-24T04:14:00Z"
+  "updated": "2026-09-24T14:09:00Z"
 }
