@@ -1,0 +1,14 @@
+{
+  "stage": 268,
+  "iso": "2026-09-24T17:00:00Z",
+  "tz": "America/Chicago",
+  "numeral": "137451921129154222",
+  "architect": "machackabook",
+  "github_id": 219579651,
+  "lane": "continuity-mesh-speedway",
+  "next_hop": "The-Hive",
+  "score": "97",
+  "tier": "T5",
+  "refusals": ["force-push", "secret-in-tree", "blind-unzip", "remote-adb"],
+  "status": "G"
+}
