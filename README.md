@@ -8,7 +8,7 @@ sSoS posture: noisy-neighbor catalog, cookie-to-device skepticism, append-only l
 
 Numeral: `137451921129154222`  
 Architect: `machackabook` (id 219579651)  
-Stage: **273** — 2026-09-24T19:10Z (2026-09-24 14:10 CDT)
+Stage: **274** — 2026-09-24T22:02Z (2026-09-24 17:02 CDT)
 
 ## What this repo is
 
@@ -23,10 +23,10 @@ The singularity lane. GitHub remains the versioned source of truth. Google Drive
 5. [gaia-visualizer](https://github.com/machackabook/gaia-visualizer)
 6. [nexus-repo-sync](https://github.com/machackabook/nexus-repo-sync)
 7. [sovereign-ai-factory-ai-polyglot](https://github.com/machackabook/sovereign-ai-factory-ai-polyglot)
-8. **this lane** — continuity-mesh-speedway **273 stamp**
+8. **this lane** — continuity-mesh-speedway **274 stamp**
 9. [Nexus-Coordination-System](https://github.com/machackabook/Nexus-Coordination-System) (private dual substrate)
-10. [tdoc-ledgertrove](https://github.com/machackabook/tdoc-ledgertrove) (append-only public pointer)
-11. [hamiltonian-incursion](https://github.com/machackabook/hamiltonian-incursion) ← **current next hop**
+10. [hamiltonian-incursion](https://github.com/machackabook/hamiltonian-incursion) ← **current next hop**
+11. [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle) (private command ledger)
 
 ## Waterfall rules
 
@@ -42,6 +42,7 @@ The singularity lane. GitHub remains the versioned source of truth. Google Drive
 - The-Hive currently carries many workflow clones; do not add more. Prefer one cascade.
 - Shared-with-me Drive is catalog-only. Writes go only to owned continuum folders.
 - ADB / wireless debug UIs in attached canvases are simulation only. No remote shell from this repo.
+- Hourly Grok operator: hop one sibling, refresh README status line, append ledger, refuse secrets, refuse null.
 
 ## Drive mesh (ethereal continuum)
 
