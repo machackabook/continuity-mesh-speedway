@@ -4,26 +4,28 @@ Bidirectional GitHub ↔ Drive mesh. Hourly enhance waterfall. Versioning speedw
 
 Operating sits in the middle. Team Enhance hops one repo per hour. Meta advances. Equalizer formats only. No history rewrite. Point-zero null refused.
 
+sSoS posture: noisy-neighbor catalog, cookie-to-device skepticism, append-only ledger, seek only the unknown. Trust source code. Catalog what is known. Hunt what is not.
+
 Numeral: `137451921129154222`  
 Architect: `machackabook` (id 219579651)  
-Stage: **264** — 2026-09-24T02:20Z (2026-09-23 21:20 CDT)
+Stage: **265** — 2026-09-24T03:10Z (2026-09-23 22:10 CDT)
 
 ## What this repo is
 
 The singularity lane. GitHub remains the versioned source of truth. Google Drive is the ethereal continuum mirror. This repository documents the contract so every sibling can pull, stamp a ledger line, and leave the next hop ready without cloning YAML forever.
 
-sSoS posture: noisy-neighbor catalog, cookie-to-device skepticism, append-only ledger, seek only the unknown.
-
 ## Mesh siblings (active waterfall)
 
-1. [ENCLAVE-ADAM-REUNITED](https://github.com/machackabook/ENCLAVE-ADAM-REUNITED) ← **next hop**
+1. [ENCLAVE-ADAM-REUNITED](https://github.com/machackabook/ENCLAVE-ADAM-REUNITED)
 2. [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat)
 3. [The-Hive](https://github.com/machackabook/The-Hive)
 4. [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
-5. [gaia-visualizer](https://github.com/machackabook/gaia-visualizer)
+5. [gaia-visualizer](https://github.com/machackabook/gaia-visualizer) ← **next hop**
 6. [nexus-repo-sync](https://github.com/machackabook/nexus-repo-sync)
 7. [sovereign-ai-factory-ai-polyglot](https://github.com/machackabook/sovereign-ai-factory-ai-polyglot)
-8. **this lane** — continuity-mesh-speedway **264 stamp**
+8. **this lane** — continuity-mesh-speedway **265 stamp**
+9. [Nexus-Coordination-System](https://github.com/machackabook/Nexus-Coordination-System) (private dual substrate)
+10. [tdoc-ledgertrove](https://github.com/machackabook/tdoc-ledgertrove) (append-only public pointer)
 
 ## Waterfall rules
 
@@ -38,6 +40,7 @@ sSoS posture: noisy-neighbor catalog, cookie-to-device skepticism, append-only l
 - Zip unpack is dry-run first. CI never unpacks operator archives.
 - The-Hive currently carries many workflow clones; do not add more. Prefer one cascade.
 - Shared-with-me Drive is catalog-only. Writes go only to owned continuum folders.
+- ADB / wireless debug UIs in attached canvases are simulation only. No remote shell from this repo.
 
 ## Drive mesh (ethereal continuum)
 
