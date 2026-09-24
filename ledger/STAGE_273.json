@@ -1,0 +1,12 @@
+{
+  "stage": 273,
+  "iso": "2026-09-24T19:10:00Z",
+  "cdt": "2026-09-24T14:10:00-05:00",
+  "numeral": "137451921129154222",
+  "surface": "continuity-mesh-speedway",
+  "hop": "HOP-273",
+  "next": ["hamiltonian-incursion", "The-Hive"],
+  "score_pct": 97,
+  "tier": "T5",
+  "null_refused": true
+}
