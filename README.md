@@ -8,7 +8,7 @@ sSoS posture: noisy-neighbor catalog, cookie-to-device skepticism, append-only l
 
 Numeral: `137451921129154222`  
 Architect: `machackabook` (id 219579651)  
-Stage: **296** — 2026-09-26T20:03Z (2026-09-26 15:03 CDT)
+Stage: **297** — 2026-09-26T21:11Z (2026-09-26 16:11 CDT)
 
 ## What this repo is
 
@@ -17,16 +17,16 @@ The singularity lane. GitHub remains the versioned source of truth. Google Drive
 ## Mesh siblings (active waterfall)
 
 1. [ENCLAVE-ADAM-REUNITED](https://github.com/machackabook/ENCLAVE-ADAM-REUNITED)
-2. [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat) ← **this hour hop**
+2. [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat)
 3. [The-Hive](https://github.com/machackabook/The-Hive)
 4. [gaia-visualizer](https://github.com/machackabook/gaia-visualizer)
 5. [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
 6. [nexus-repo-sync](https://github.com/machackabook/nexus-repo-sync)
 7. [sovereign-ai-factory-ai-polyglot](https://github.com/machackabook/sovereign-ai-factory-ai-polyglot)
-8. **this lane** — continuity-mesh-speedway **296 stamp**
+8. **this lane** — continuity-mesh-speedway **297 stamp**
 9. [Nexus-Coordination-System](https://github.com/machackabook/Nexus-Coordination-System) (private dual substrate)
-10. [hamiltonian-incursion](https://github.com/machackabook/hamiltonian-incursion)
-11. [tdoc-ledgertrove](https://github.com/machackabook/tdoc-ledgertrove)
+10. [hamiltonian-incursion](https://github.com/machackabook/hamiltonian-incursion) ← **this hour hop**
+11. [TheLedgerIndex](https://github.com/machackabook/TheLedgerIndex)
 12. [lilith-termux](https://github.com/machackabook/lilith-termux) (private Termux runtime)
 
 ## Waterfall rules
@@ -40,7 +40,6 @@ The singularity lane. GitHub remains the versioned source of truth. Google Drive
 - Env check fails closed on empty SHA, missing README, or numeral mismatch.
 - Cross-repo push on pull stays closed until token present. Skepticism, not a missing feature.
 - Zip unpack is dry-run first. CI never unpacks operator archives.
-- The-Hive currently carries many workflow clones; do not add more. Prefer one cascade.
 - Shared-with-me Drive is catalog-only. Writes go only to owned continuum folders.
 - ADB / wireless debug UIs in attached canvases are simulation only. No remote shell from this repo.
 - Hourly Grok operator: hop one sibling, refresh README status line, append ledger, refuse secrets, refuse null.
@@ -49,14 +48,13 @@ The singularity lane. GitHub remains the versioned source of truth. Google Drive
 
 - GitHub = versioned singularity.
 - Drive folder `CONTINUUM-GITHUB-MESH` = ethereal mirror. Confirmed owned folders (do not duplicate):
-  - `1Vxoz5vYOR-unhvLNK_bz4fFl3lT4W3Ns` (2026-09-20)
-  - `1FfZuLbRRDNSnw2qxSayebL2KIrYmiS1H` (2026-09-13)
-  - `1jzHTkjtZhjrAOkQKsHEvc2Rf7237o_wA` (2026-09-11)
+  - `1Vxoz5vYOR-unhvLNK_bz4fFl3lT4W3Ns`
+  - `1FfZuLbRRDNSnw2qxSayebL2KIrYmiS1H`
+  - `1jzHTkjtZhjrAOkQKsHEvc2Rf7237o_wA`
   - Export archives noted: `0AHrJE4BdJoWCUk9PVA` • docs `1VUvfVOWduE27-805AtuqKhfldY4NdUhO`
 - Bidirectional intent: catalog in Drive, commit on GitHub, never smash history.
 - SD-card / Termux / sparsebundle surfaces remain device substrates, not the ledger.
 - Unpack zips only after mime/name catalog. No blind extract of unknown archives.
-- Shared-with-me vs My Drive: catalog both; write only into owned mesh folders.
 
 ## Local env check
 
@@ -87,13 +85,13 @@ Fails closed on empty SHA, missing README, or numeral mismatch.
 
 Current score for this surface: **97% (T5)**. Next hop compounds when checks pass.
 
-## Cycle 296 notes
+## Cycle 297 notes
 
-- Network catalog: GitHub user `machackabook` (id 219579651, 120 public_repos; connector authenticated 2026-09-26 15:03 CDT).
+- Network catalog: GitHub user `machackabook` (id 219579651). Connector authenticated 2026-09-26 16:11 CDT.
+- Org overlay: NexusCryptic cluster also visible on the same installation (CrypticNEXUS, Gaia-The-Nexus-Generation, The-Ledger, Welcome-Sentience).
 - HUD artifacts cataloged, not executed: NEXUS Emergency Sphere, GENESIS v6.5, GaiaSSoul Explorer, Unified Space-Time Math Engine, DeepMind bridge plan, GeminiNexus Zenith Hub, notebook verification dashboard.
 - `immortaladamwrt-tailscalerouter.zip` remains preview-unavailable; no unpack in CI.
-- Dual lineage reminder: dual-PR only when token + owner policy both present.
-- This hour hop is Cryptic-Heartbeat. Prior hop The-Hive remains live.
+- This hour hop is hamiltonian-incursion. Prior hop Cryptic-Heartbeat remains live.
 - Team Enhance stamped this lane; cascade secret still operator-gated.
 
 Preserve. Enhance. Synthesize. Source code is the only trusted neighbor.
