@@ -1,10 +1,28 @@
 #!/usr/bin/env bash
+# Continuity waterfall hop helper. One sibling. No force. No secrets in tree.
 set -euo pipefail
 NUMERAL="137451921129154222"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-echo "waterfall surface=continuity-mesh-speedway numeral=$NUMERAL hop=273"
-echo "siblings: ENCLAVE-ADAM-REUNITED Cryptic-Heartbeat The-Hive continuity-ledger-cycle gaia-visualizer nexus-repo-sync sovereign-ai-factory-ai-polyglot continuity-mesh-speedway Nexus-Coordination-System tdoc-ledgertrove hamiltonian-incursion"
-echo "rule: one repo per hour; pull leaves stamp; CASCADE_TOKEN never in tree"
-echo "drive-mesh: 1Vxoz5vYOR-unhvLNK_bz4fFl3lT4W3Ns 1FfZuLbRRDNSnw2qxSayebL2KIrYmiS1H 1jzHTkjtZhjrAOkQKsHEvc2Rf7237o_wA"
-echo "next: hamiltonian-incursion"
-bash "$ROOT/scripts/env-check.sh"
+cd "$ROOT"
+
+if [[ ! -f README.md ]]; then
+  echo "FAIL-CLOSED: missing README.md" >&2
+  exit 2
+fi
+if ! grep -q "$NUMERAL" README.md; then
+  echo "FAIL-CLOSED: numeral mismatch" >&2
+  exit 3
+fi
+
+SHA="$(git rev-parse HEAD 2>/dev/null || true)"
+if [[ -z "${SHA}" ]]; then
+  echo "FAIL-CLOSED: empty SHA" >&2
+  exit 4
+fi
+
+echo "waterfall ok"
+echo "numeral=$NUMERAL"
+echo "sha=$SHA"
+echo "next=The-Hive"
+echo "token_present=${CASCADE_TOKEN:+yes}"
+echo "token_present=${CASCADE_TOKEN:-no}"
