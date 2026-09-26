@@ -1,28 +1,43 @@
 #!/usr/bin/env bash
-# Continuity waterfall hop helper. One sibling. No force. No secrets in tree.
+# Continuity waterfall — pull then optional sibling dispatch.
+# Secrets never live in this file.
 set -euo pipefail
 NUMERAL="137451921129154222"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-cd "$ROOT"
+echo "[waterfall] numeral ${NUMERAL} root ${ROOT}"
 
-if [[ ! -f README.md ]]; then
-  echo "FAIL-CLOSED: missing README.md" >&2
-  exit 2
-fi
-if ! grep -q "$NUMERAL" README.md; then
-  echo "FAIL-CLOSED: numeral mismatch" >&2
-  exit 3
+stamp() {
+  mkdir -p "${ROOT}/ledger"
+  local f="${ROOT}/ledger/WATERFALL-$(date -u +%Y%m%dT%H%M%SZ).md"
+  {
+    echo "# waterfall stamp"
+    echo "- utc: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+    echo "- numeral: ${NUMERAL}"
+    echo "- host: $(hostname 2>/dev/null || echo unknown)"
+    echo "- git: $(git -C "${ROOT}" rev-parse --short HEAD 2>/dev/null || echo detached)"
+  } > "${f}"
+  echo "[waterfall] wrote ${f}"
+}
+
+stamp
+
+SIBLINGS=(
+  machackabook/tdoc-ledgertrove
+  machackabook/hamiltonian-incursion
+  machackabook/TheLedgerIndex
+  machackabook/The-Hive
+  machackabook/Cryptic-Heartbeat
+  machackabook/gaia-visualizer
+)
+
+if [[ -z "${CASCADE_TOKEN:-}" ]]; then
+  echo "[waterfall] CASCADE_TOKEN unset — stamp only, no remote dispatch"
+  exit 0
 fi
 
-SHA="$(git rev-parse HEAD 2>/dev/null || true)"
-if [[ -z "${SHA}" ]]; then
-  echo "FAIL-CLOSED: empty SHA" >&2
-  exit 4
-fi
-
-echo "waterfall ok"
-echo "numeral=$NUMERAL"
-echo "sha=$SHA"
-echo "next=The-Hive"
-echo "token_present=${CASCADE_TOKEN:+yes}"
-echo "token_present=${CASCADE_TOKEN:-no}"
+for repo in "${SIBLINGS[@]}"; do
+  echo "[waterfall] dispatch ${repo}"
+  gh workflow run continuity-hourly.yml --repo "${repo}" || \
+    gh workflow run enhance.yml --repo "${repo}" || \
+    echo "[waterfall] no hourly workflow on ${repo} — skipped"
+done

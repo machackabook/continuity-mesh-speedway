@@ -1,11 +1,41 @@
-# CYCLE-296
+# Cycle 296 — Team Enhance
 
-- Time: 2026-09-26T20:03Z / 15:03 CDT
+- UTC: 2026-09-26T22:11:00Z
 - Numeral: 137451921129154222
-- Operator: Team Enhance / Continuity Engine
-- Lane: continuity-mesh-speedway
-- Hop: Cryptic-Heartbeat (after The-Hive in cycle 295)
-- Connector: github user machackabook id 219579651
-- Secrets: none written. CASCADE_TOKEN remains Actions-only.
-- Null: refused.
-- Score: 97% T5 — seek unknown, do not declare T6.
+- Operator: machackabook / AzazelDeimos
+- Stance: preserve → enhance → synthesize. Never rewrite history.
+
+## Mesh seen this hour
+
+Public surface (updated today):
+- gaia-visualizer
+- Cryptic-Heartbeat
+- hamiltonian-incursion
+- continuity-mesh-speedway (this paper)
+- The-Hive
+- ENCLAVE-ADAM-REUNITED
+- nexus-repo-sync
+- tdoc-ledgertrove
+
+Private dual-sync (named, not dumped):
+- Nexus-Coordination-System
+- continuity-ledger-cycle
+- NEXUS-SENTINEL-LEDGER
+
+## Waterfall rule
+
+Pull this repo → stamp ledger → if CASCADE_TOKEN exists, dispatch sibling hourly workflows.
+DIVERGED = review. No force-push. Drive is cache. GitHub is signed paper.
+
+## Attachments cataloged (session)
+
+- NEXUS EMERGENCY SPHERE.html — HUD / ADB *simulation* only
+- GENESIS v6.5 Sovereign Overlord.html — same
+- GaiaSSoul Architectural Explorer.html — identifier 137451921129154222|040592|433855274
+- DeepMind Integration plan.md — OpenSpiel clone + MediaPipe lite path
+- Unified Space-Time Mathematical Engine.html — GLSL manifold viewer
+- zip preview page for immortaladamwrt-tailscalerouter.zip — download-only, not unpacked in CI
+
+## Next hop
+
+The-Hive README hygiene, then Cryptic-Heartbeat tests, then gaia-visualizer issues.
